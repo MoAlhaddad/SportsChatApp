@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+  .app {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  }
+  .app > * {
+    grid-column: 2/2;
+  }
+  .background {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+  }
+  
+  .background > canvas {
+    width: 100%;
+  }
+  .app {
+    background: transparent;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    margin:0;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    /* padding: 10px; */
+    padding-left: 10%;
+    padding-right: 15%;  
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    color: none;
+  }
+  .particles-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  /* }
+  .particles-loader {
+    z-index: 4;
+  } */
+  /* .particles {
+    z-index: -4;
+  } */
+  /* @keyframes change-color {
+    0% {background: rgb(100, 100, 100)}
+    10% {background: rgb(58, 58, 61)}
+    20% {background: rgb(150, 75, 200)}
+    60% {background: rgb(180, 250, 180)}
+    70% {background: rgb(0, 250, 220)}
+    80% {background: rgb(25, 25, 120)}
+    90% {background: rgb(11, 21, 165)}
+    100% {background: rgb(100, 100, 100)}
+  } */
+  © 2021 GitHub, Inc.

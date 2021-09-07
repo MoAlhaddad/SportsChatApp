@@ -1,0 +1,27 @@
+.create-post-page-div > .title.create-post-form {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    /* height: 100%; */
+    grid-column: 2/2;
+}
+.create-post-page-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+@media (min-width: 720px) {
+    .create-post-page-div > .title.create-post-form {
+        font-size: 2em;
+    }
+}
+@media (min-width: 1200px) {
+    .create-post-page-div > .title.create-post-form  {
+        /* margin: 100px; */
+        padding: 125px;
+        font-size: 3em;
+    }
+}

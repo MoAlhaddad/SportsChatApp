@@ -1,0 +1,98 @@
+.title.login {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+}
+.form.login {
+    color: #fff;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form.login > * {
+    width: 100%;
+    grid-column: 2/2;
+}
+.login-div {
+    margin-top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.login-label {
+    font-size: 1.1em;
+}
+.btn.login {
+    background: transparent;
+    border: solid 3px #fff;
+    color: #fff;
+    font-weight: 700;
+    width: 60%;
+    height: 3.5em;
+    font-size: 1.15em;
+    margin: 10px;
+}
+.login-div > input {
+    position: relative;
+    height: 3em;
+    width: 80%;
+    margin: 5%;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+@media (min-width: 760px) {
+    form.login {
+        width: 100%;
+    }
+    .login-div > input  {
+        height: 2.5em;
+    }
+    .login-label {
+        font-size: 1.4em;
+        margin-bottom: -5px;
+    }
+    .login-label:first-child {
+        margin-top: 50px;
+    }
+    .login-div {
+        margin-top: 33%;
+    }
+    .login-div > input {
+        font-size: 1.2em;
+    }
+    .btn.login {
+        padding: 15px;
+        font-size: 1.25em;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form.login {
+        width: 100%;
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+    }
+    .login-label {
+        font-size: 1.60em;
+    }
+    .login-div > input {
+        height: 6%;
+        margin: 10px;
+        font-size: 1.4em;
+    }
+    .login-div {
+        grid-row: 2/3
+    }
+    .btn.login {
+        width: 60%;
+        height: 7.5%;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+}
