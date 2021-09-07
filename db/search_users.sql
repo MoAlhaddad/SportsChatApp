@@ -1,0 +1,1 @@
+SELECT * FROM spchat_users WHERE LOWER(username) LIKE $1 OR username = $1 OR UPPER(username) LIKE $1;

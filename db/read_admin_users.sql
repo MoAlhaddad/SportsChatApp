@@ -1,0 +1,1 @@
+SELECT * FROM spchat_users WHERE id != 139 AND id != 140;

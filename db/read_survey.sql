@@ -1,0 +1,1 @@
+SELECT *  FROM sp_surveys WHERE topic = $1 ORDER BY RANDOM() LIMIT 1;
